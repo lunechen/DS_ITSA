@@ -3,13 +3,11 @@
 
 int main(){
     int a, b;
-
+    
     while(scanf("%d", &a)!=EOF){
         scanf("%d", &b);
-        int dis=a*a+b*b;
-        if (dis<40000) printf("inside\n");
-        else printf("outside\n");
+        printf("%.1lf\n", a*b/2.0);
     }
-    
+
     return 0;
 }
